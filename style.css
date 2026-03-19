@@ -1154,6 +1154,17 @@ button.active {
   transform: translateY(-250px);
 }
 
+@media (max-width: 576px) {
+  .hero-section {
+    background-size: 280px;
+  }
+
+  .quick-access {
+    transform: translateY(-80px);
+  }
+}
+
+
 .luxury-tagline {
   position: absolute;
   left: 50%;
